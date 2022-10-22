@@ -29,6 +29,18 @@
     background-size: cover;
 }
 
+.item2 {
+    width: 600px;
+    height: 360px;
+    border: 1px solid #000;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    border-radius: 5px 5px 5px 5px;
+    background-image: url(img/690x3802.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -64,3 +76,34 @@
     font-size: 20px;
     font-weight: bold;
 }
+
+nav ul {
+
+    list-style: none;
+    
+    margin: 0;
+    
+    padding: 0;
+    
+    }
+    
+    nav ul li a {
+    
+    text-decoration: none;
+    
+    background: #999; /*Цвет фона пункта меню*/
+    
+    color: #fff; /*Цвет текста пункта меню*/
+    
+    text-align: center; /*Текст по центру по горизонтали*/
+    
+    display: block;
+    
+    width: 200px; /*Ширина пункта меню*/
+    
+    height: 30px; /*Высота пункта меню*/
+    
+    line-height: 30px; /*Высота строки*/
+    
+    margin-bottom: 2px; /*Отступ снизу от каждого пункта меню*/
+    }
